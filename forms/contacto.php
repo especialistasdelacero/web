@@ -19,10 +19,10 @@
 
 
 
-  $cotizar->add_message( $_POST['name'], 'nombre');
-  $cotizar->add_message( $_POST['Email'], 'correo');
-  $cotizar->add_message( $_POST['telefono'], 'telefono');
-  $cotizar->add_message( $_POST['mensaje'], 'mensaje', 10);
+  $contacto->add_message( $_POST['name'], 'nombre');
+  $contacto->add_message( $_POST['Email'], 'correo');
+  $contacto->add_message( $_POST['telefono'], 'telefono');
+  $contacto->add_message( $_POST['mensaje'], 'mensaje', 10);
 
   echo $contacto->send();
 ?>
