@@ -1,0 +1,1 @@
+$email = filter_var($_POST)
