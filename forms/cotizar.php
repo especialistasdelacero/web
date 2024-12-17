@@ -14,10 +14,10 @@
   $cotizar->ajax = true;
   
   $cotizar->to = $receiving_email_address;
-  $cotizar->from_name = $_POST['nombre'];
-  $cotizar->from_email = $_POST['correo'];
-  $cotizar->subject = 'telefono';
-  $cotizar->from_name = $_POST['mensaje'];
+  $cotizar->from_nombre = $_POST['nombre'];
+  $cotizar->from_correo = $_POST['correo'];
+  $cotizar->from_telefono = $_POST['telefono'];
+  $cotizar->from_mensaje = $_POST['mensaje'];
 
 
 
